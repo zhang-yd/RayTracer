@@ -22,5 +22,5 @@ Step 2，cmake & visual studio
 
 In this data given in main.cpp, it can render and save into PNG image. 
 
-![](https://raw.githubusercontent.com/zhang-yd/RayTracer/render.png)
+![](https://raw.githubusercontent.com/zhang-yd/RayTracer/master/render.png)
 
