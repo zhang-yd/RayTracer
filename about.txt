@@ -13,6 +13,11 @@
 	2, Still exits some bug: specular light 
 
 
+2019/12/21 
+	1, render successfully
+	2, virutial object and light 
+	3, shared_ptr 
+
 
 
 

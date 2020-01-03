@@ -28,6 +28,7 @@ set(SOURCE_FILES
 	sampler.cpp 
 	ray.cpp  
 	vector.cpp 
+	matrix.cpp 
 	util.cpp 
 	log.cpp 
 	lodepng.cpp

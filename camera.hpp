@@ -4,7 +4,8 @@
 
 
 #include "ray.hpp" 
-#include "vector.hpp" 
+#include "vector.hpp"  
+#include "matrix.hpp"
 
 #include <string> 
 
@@ -31,6 +32,14 @@ private:
 	float focal; 
 	vec3f x_comp; 
 	vec3f y_comp; 
+
+
+	// Part 2 
+public:
+	mat4f world; 
+	mat4f view; 
+	mat4f proj; 
+	mat4f transfrom; 
 }; 
 
 

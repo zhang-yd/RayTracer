@@ -39,10 +39,10 @@ void scene1()
     Material     mirror(0.0, 6.0, 0.8, 0.0, vec3f(255.0, 255.0, 255.0), 1.0,  1425.);
 
 	// 
-	std::shared_ptr<Object> ob1 = std::make_shared<Sphere>(vec3f(-3, 0, -16), 2, ivory); 
-	std::shared_ptr<Object> ob2 = std::make_shared<Sphere>(vec3f(-1.0, -1.5, -12), 2, glass); 
-	std::shared_ptr<Object> ob3 = std::make_shared<Sphere>(vec3f(7, 5, -18), 4, mirror); 
-	std::shared_ptr<Object> ob4 = std::make_shared<Sphere>(vec3f(-7, 5, -18), 3.6, red_rubber); 
+	std::shared_ptr<Object> ob1 = std::make_shared<Sphere>(vec3f(-3, 0, -11), 2, ivory); 
+	std::shared_ptr<Object> ob2 = std::make_shared<Sphere>(vec3f(-1.0, -1.5, -7), 2, glass); 
+	std::shared_ptr<Object> ob3 = std::make_shared<Sphere>(vec3f(7, 5, -13), 4,  mirror); 
+	std::shared_ptr<Object> ob4 = std::make_shared<Sphere>(vec3f(-7, 5, -13), 3.6, red_rubber); 
 
 	scn->add_object(ob1.get()); 
 	scn->add_object(ob2.get()); 
